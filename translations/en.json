@@ -1,0 +1,26 @@
+{
+  "title": "OpenLinkHub",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to OpenLinkHub",
+        "description": "Enter the host running OpenLinkHub.",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "IP address or hostname of the OpenLinkHub server.",
+          "port": "OpenLinkHub HTTP API port. The default is 27003."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to OpenLinkHub.",
+      "invalid_response": "The server responded, but it did not look like an OpenLinkHub API."
+    },
+    "abort": {
+      "already_configured": "This OpenLinkHub server is already configured."
+    }
+  }
+}
